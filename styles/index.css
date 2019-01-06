@@ -416,3 +416,30 @@ body {
 .dot:first-child {
     background-color: #4776e6;
 }
+
+/*- Video Demo Section -*/
+
+.demo {
+    text-align: center;
+    background-color: #6c0081;
+    color: #fff;
+    padding: 200px;
+}
+
+.play_button {
+    width: 150px;
+    height: 150px;
+    display: block;    
+    margin: 0 auto; 
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.fa-play {
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 15px;
+    color: #fff;
+}
