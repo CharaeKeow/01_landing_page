@@ -437,15 +437,21 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     height: 70vh;
     margin-top: -200px;
-    padding-top: 100px;
+    align-self: center;
     margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .play_button {
     width: 150px;
+    align-self: center;
+    justify-self: center;
     height: 150px;
     display: block;    
-    margin: 0 auto; 
+    margin: 0 auto;
+    margin-bottom: 10px; 
     border: 1px solid #fff;
     border-radius: 50%;
     position: relative;
@@ -461,4 +467,41 @@ body {
     margin-top: 40px;
     padding-left: 15px;
     color: #fff;
+}
+
+.demo .demo_content p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/*- Testimony -*/
+
+/*-- Testimony Header --*/
+
+.testimony {
+    text-align: center;
+}
+
+.testimony_header {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.testimony_header p {
+    font-size: 16px;
+}
+
+.testimonies {
+    border: solid #000;
+    margin: 80px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.testimony_box {
+    border: solid #000;
+    width: 500px;
+    
 }
