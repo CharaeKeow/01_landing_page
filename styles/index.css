@@ -434,10 +434,11 @@ body {
 }
 
 .demo_content {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 70vh;
     margin-top: -200px;
-    padding-top: 200px;
+    padding-top: 100px;
+    margin-bottom: 200px;
 }
 
 .play_button {
@@ -449,6 +450,10 @@ body {
     border-radius: 50%;
     position: relative;
     cursor: pointer;
+}
+
+.play_button:hover {
+    background-color: rgba(230, 230, 230, 0.5);
 }
 
 .fa-play {
