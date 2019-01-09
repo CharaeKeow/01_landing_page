@@ -496,26 +496,6 @@ body {
     margin: 80px auto;
     padding: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.testimony_box {
-    border: solid #000;
-    width: 500px;    
-    display: flex;
-    
-    padding: 10px;
-}
-
-.testimony_content {
-    border: solid #ddd;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-}
-
-.testimony_content p {
-    width: 300px;
-
+    justify-content: center;
 }
