@@ -510,6 +510,7 @@ body {
     width: 700px;
     z-index: 1;
     margin-bottom: 0;
+    font-size: 20px;
 }
 
 .testimony_box p:after {
@@ -524,4 +525,5 @@ body {
 
 .testimony_box h4 {
     color: #4776e6;
+    font-size: 18px;
 }
