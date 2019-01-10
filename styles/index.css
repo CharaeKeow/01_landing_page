@@ -480,6 +480,7 @@ body {
 
 .testimony {
     text-align: center;
+    background: #eee;
 }
 
 .testimony_header {
@@ -492,10 +493,35 @@ body {
 }
 
 .testimonies {
-    border: solid #000;
-    margin: 80px auto;
+    margin: auto;
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.testimony_box p{
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0;
+    width: 700px;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.testimony_box p:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.testimony_box h4 {
+    color: #4776e6;
 }
