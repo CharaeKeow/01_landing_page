@@ -23,3 +23,6 @@ Sources:
 
 - Project design - https://www.awwwards.com/sites/faded-app-landing-page-theme
  
+### Live Site:
+-still ongoing
+https://charaekeow.github.io/01_landing_page/
