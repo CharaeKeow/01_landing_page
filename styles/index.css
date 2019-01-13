@@ -602,6 +602,7 @@ body {
 
 .team_members .member_bio h4 {
     font-size: 25px;
+    margin-bottom: -15px;
 }
 
 .team_members .member_bio h5 {
@@ -643,18 +644,90 @@ body {
     color: #4267b2;
   }
   
-  .fa-twitter-square {
+.fa-twitter-square {
     color: #1da1f2;
-  }
+}
   
-  .fa-instagram {
+.fa-instagram {
     color: #ab2b8f;
-  }
+}
   
-  .fa-github {
+.fa-github {
     color: #000;
-  }
+}
   
-  .fa-linkedin {
+.fa-linkedin {
     color: #0274b3;
-  }
+}
+
+/*- Pricing Section -*/
+
+.pricing {
+    text-align: center;
+    font-size: 16px;
+}
+
+.pricing_header {
+    margin: 50px auto;
+    margin-top: 0px;
+    width: 700px;
+}
+
+.pricing_body {
+    border: 1px solid;
+}
+
+.pricing_body .price_list {
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid;   
+}
+
+.pricing_body .price_list .package {
+    width: 450px;
+    border: 1px solid;
+}
+
+.pricing_body .price_list .package .package_title {
+    margin-bottom: 25px;
+}
+
+.pricing_body .price_list .package .package_title h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.pricing_body .price_list .package .package_title .fas {
+    font-size: 70px;
+}
+
+.package .package_details {
+    list-style: none;
+    padding-left: 0;        
+}
+
+.package .package_details li {
+    margin: 10px auto;    
+}
+
+.package .package_details .order {
+    padding: 10px 20px;
+}
+
+.package .package_details .order button {
+    border: 2px solid #4776e6;
+    color: #4776e6;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 23px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.package .package_details .order button:hover {
+    color: #fff;
+    background-color: #4776e6;
+    transition: .4s;
+}
