@@ -682,12 +682,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 0;
     border: 1px solid;   
+    padding: 15px;
 }
 
 .pricing_body .price_list .package {
-    width: 450px;
-    border: 1px solid;
+    width: 350px;
+    border: 1.5px solid #ddd;
+    border-radius: 5px;
 }
 
 .pricing_body .price_list .package .package_title {
@@ -731,3 +734,6 @@ body {
     background-color: #4776e6;
     transition: .4s;
 }
+
+/*-- Package Styling --*/
+
