@@ -674,7 +674,7 @@ body {
 }
 
 .pricing_body {
-    border: 1px solid;
+    padding: 10px;
 }
 
 .pricing_body .price_list {
@@ -683,40 +683,63 @@ body {
     flex-direction: row;
     justify-content: space-around;
     padding-left: 0;
-    border: 1px solid;   
     padding: 15px;
 }
 
 .pricing_body .price_list .package {
     width: 350px;
-    border: 1.5px solid #ddd;
+    border: 1.5px solid #eee;
     border-radius: 5px;
 }
 
 .pricing_body .price_list .package .package_title {
     margin-bottom: 25px;
+    border-bottom: 1.5px solid #eee;
+    padding-bottom: 20px;
 }
 
 .pricing_body .price_list .package .package_title h3 {
     font-size: 30px;
-    margin-bottom: 0;
+    color: #4267b2;
 }
 
 .pricing_body .price_list .package .package_title .fas {
-    font-size: 70px;
+    font-size: 100px;
+    color: #4776e6;
 }
 
 .package .package_details {
     list-style: none;
-    padding-left: 0;        
+    padding-left: 0;            
 }
 
 .package .package_details li {
     margin: 10px auto;    
+    line-height: 40px;
+    color: #444;
+    font-size: 20px;
+}
+
+.package .package_details .price {
+    color: #4267b2;
+    font-size: 16px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+    margin: 40px 0;
+    border-bottom: 1.5px solid #eee;
+    padding-bottom: 30px;
+}
+
+.package .package_details .price span {
+    font-size: 50px;
 }
 
 .package .package_details .order {
-    padding: 10px 20px;
+    padding: 0 20px;
+    padding-bottom: 40px;
 }
 
 .package .package_details .order button {
