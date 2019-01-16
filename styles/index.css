@@ -694,6 +694,7 @@ body {
     border: 1.5px solid #eee;
     border-radius: 5px;
     position: relative;
+    margin: 0 18px;
 }
 
 /*--- Package Title ---*/
