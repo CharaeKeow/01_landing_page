@@ -794,3 +794,26 @@ body {
     box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
+
+/*- Blog section -*/
+
+.blog {
+    text-align: center;
+    background-color: #eee;
+}
+
+.blog .blog_header {
+    width: 650px;
+    margin: 0 auto 20px auto;   
+}
+
+.blog .blog_content {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.blog .blog_content .post {
+    width: 450px;
+    background-color: #fff;
+    border: 1px solid;
+}
