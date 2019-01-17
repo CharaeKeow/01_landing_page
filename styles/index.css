@@ -813,7 +813,31 @@ body {
 }
 
 .blog .blog_content .post {
-    width: 450px;
+    width: 400px;
     background-color: #fff;
     border: 1px solid;
+}
+
+.blog .blog_content .post .post_img {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    overflow: hidden; 
+}
+
+.blog .blog_content .post .post_img img { 
+    min-width: 100%;
+    height: 100%;
+}
+
+.blog .blog_content .post .post_img:after {
+    content: "";
+    display: block;
+    height: 300px;
+    width: 500px;
+    transform: rotate(8deg);
+    background-color: #fff;
+    position: absolute;
+    bottom: -230px;
+    left: -70px;
 }
