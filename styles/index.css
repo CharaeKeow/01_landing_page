@@ -875,10 +875,15 @@ body {
 .blog .blog_content .post .read_more a {
     color: #0000FF;
     text-decoration: none;
-    padding-left: 20px;
+    margin-left: 20px;
     font-weight: 600;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+.blog .blog_content .post .read_more a:hover {
+    border-bottom: 1.5px solid #0000FF;
+    padding-bottom: 4px;    
 }
 
 .blog .enter_blog {
@@ -890,9 +895,16 @@ body {
     text-transform: uppercase;
     padding: 15px 40px;
     background-color: #fff;
-    border: 1.5px solid #6c0081;
+    border: 1.5px solid #0000FF;
     border-radius: 30px;
-    color: #6c0081;
+    color: #0000FF;
+    cursor: pointer;
+}
+
+.blog .enter_blog button:hover {
+    background-color: #0000FF;
+    color :#fff;
+    transition: .3s;
 }
 
 /*- Get App Section -*/
@@ -901,7 +913,7 @@ body {
     background-image: radial-gradient(circle at top right, #f5f5f5, #f5f5f5 10%, #fff 10%, #fff 44%, #f5f5f5 44%, #f5f5f5 50%, #eee 50%);
     position: relative;
     margin-top: 100px;
-    min-height: 800px;
+    min-height: 600px;
     overflow: hidden;
 }
 
@@ -919,7 +931,7 @@ body {
 
 .get_app_content h4 {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .get_app_content .stores {
@@ -935,6 +947,6 @@ body {
 }
 
 .get_app_content .stores .apple:hover, .google:hover {
-    background-color: #6c0081;
+    background-color: #0274b3;
     transition: .4s;
 }
