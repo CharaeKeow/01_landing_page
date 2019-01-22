@@ -434,7 +434,7 @@ body {
 }
 
 .demo_content {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(-90deg, rgba(142, 84, 233, 0.88) 0%, rgba(71, 118, 230, 0.88) 100%);
     height: 70vh;
     margin-top: -200px;
     align-self: center;
@@ -602,6 +602,7 @@ body {
 
 .team_members .member_bio h4 {
     font-size: 25px;
+    margin-bottom: -15px;
 }
 
 .team_members .member_bio h5 {
@@ -643,18 +644,297 @@ body {
     color: #4267b2;
   }
   
-  .fa-twitter-square {
+.fa-twitter-square {
     color: #1da1f2;
-  }
+}
   
-  .fa-instagram {
+.fa-instagram {
     color: #ab2b8f;
-  }
+}
   
-  .fa-github {
+.fa-github {
     color: #000;
-  }
+}
   
-  .fa-linkedin {
+.fa-linkedin {
     color: #0274b3;
-  }
+}
+
+/*- Pricing Section -*/
+
+.pricing {
+    text-align: center;
+    font-size: 16px;
+}
+
+.pricing_header {
+    margin: 50px auto;
+    margin-top: 0px;
+    width: 700px;
+}
+
+.pricing_body {
+    padding: 10px;
+}
+
+.pricing_body .price_list {
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+    width: 70%;
+    margin: 50px auto;
+}
+
+/*-- Packages --*/
+
+.pricing_body .price_list .package {
+    width: 350px;
+    border: 1.5px solid #eee;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 18px;
+}
+
+/*--- Package Title ---*/
+
+.pricing_body .price_list .package .package_title {
+    margin-bottom: 25px;
+    border-bottom: 1.5px solid #eee;
+    padding-bottom: 20px;
+}
+
+.pricing_body .price_list .package .package_title h3 {
+    font-size: 30px;
+    color: #4267b2;
+}
+
+.pricing_body .price_list .package .package_title .fas {
+    font-size: 100px;
+    color: #4776e6;
+}
+
+/*--- Details ---*/
+
+.package .package_details {
+    list-style: none;
+    padding-left: 0;            
+}
+
+.package .package_details li {
+    margin: 10px auto;    
+    line-height: 40px;
+    color: #444;
+    font-size: 20px;
+}
+
+.package .package_details .price {
+    color: #4267b2;
+    font-size: 20px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+    margin: 40px 0;
+    border-bottom: 1.5px solid #eee;
+    padding-bottom: 30px;
+}
+
+.package .package_details .price span {
+    font-size: 60px;
+}
+
+/*--- Order button ---*/
+
+.package .package_details .order {
+    padding: 0 20px;
+    padding-bottom: 40px;
+}
+
+.package .package_details .order button {
+    border: 2px solid #4776e6;
+    color: #4776e6;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 23px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.package .package_details .order button:hover {
+    color: #fff;
+    background-color: #4776e6;
+    transition: .4s;
+}
+
+/*-- Best Value Pack styling --*/
+
+.best_value .tag {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 1);
+    width: 250px;
+    padding: 1px;
+    transform: rotate(45deg);
+    right: -80px;
+    top: 25px;
+    border: none;
+}
+
+.tag p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.best_value {
+    transform: scale(1.05);
+    border: none;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/*- Blog section -*/
+
+.blog {
+    text-align: center;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.blog .blog_header {
+    width: 650px;
+    margin: 0 auto 60px auto;   
+}
+
+.blog .blog_content {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.blog .blog_content .post {
+    width: 400px;
+    background-color: #eee;
+    border-radius: 10px;
+    text-align: left;    
+    padding-bottom: 30px;
+}
+
+.blog .blog_content .post .post_img {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    overflow: hidden; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blog .blog_content .post .post_img img { 
+    min-width: 100%;
+    height: 100%;
+}
+
+.blog .blog_content .post .post_img:after {
+    content: "";
+    display: block;
+    height: 300px;
+    width: 500px;
+    transform: rotate(5deg);
+    background-color: #eee;
+    position: absolute;
+    bottom: -270px;
+    left: -70px;
+}
+
+.blog .blog_content .post .post_content{
+    margin: 0 20px;
+}
+
+.blog .blog_content .post .post_content .post_title {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.blog .blog_content .post .post_content .post_date {
+    color: rgba(160, 160, 160, 0.8);
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.blog .blog_content .post .post_content .post_text {
+    font-size: 14px;
+}
+
+
+.blog .blog_content .post .read_now {
+    border:1px solid #000;
+}
+
+.blog .blog_content .post .read_more a {
+    color: #0000FF;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.blog .enter_blog {
+    margin-top: 60px;
+    margin-bottom: -30px;
+}
+
+.blog .enter_blog button {
+    text-transform: uppercase;
+    padding: 15px 40px;
+    background-color: #fff;
+    border: 1.5px solid #6c0081;
+    border-radius: 30px;
+    color: #6c0081;
+}
+
+/*- Get App Section -*/
+
+.get_app {
+    background-image: radial-gradient(circle at top right, #f5f5f5, #f5f5f5 10%, #fff 10%, #fff 44%, #f5f5f5 44%, #f5f5f5 50%, #eee 50%);
+    position: relative;
+    margin-top: 100px;
+    min-height: 800px;
+    overflow: hidden;
+}
+
+.get_app .get_app_background {
+    position: absolute;
+    bottom: -150px;
+    right: -350px;
+}
+
+.get_app .get_app_header, .get_app_content {
+    width: 800px;
+    text-align: left;
+    padding-left: 240px;
+}
+
+.get_app_content h4 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.get_app_content .stores {
+    display: flex;
+}
+
+.get_app_content .stores .apple, .google {
+    background-color: #000;
+    margin-right: 40px;
+    padding: 10px 8px 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get_app_content .stores .apple:hover, .google:hover {
+    background-color: #6c0081;
+    transition: .4s;
+}
