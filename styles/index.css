@@ -953,9 +953,34 @@ body {
 
 /*- Contact Section -*/
 
+.contact {
+    position: relative; 
+    background-color: #3c6cee;
+    margin-top: -80px;
+}
+
+.contact .background_img {
+    background: url('../images/bg.png') no-repeat center center;
+    background-size: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact .background_img .background_shadow {
+    background-color: rgba(71, 118, 230, 0.88);
+    height: 100%;
+}
+
 .contact_header {
     width: 600px;
     margin: 0 auto;
-    margin-top: -50px;
     text-align: center;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    font-size: 16px;    
 }
+
