@@ -950,3 +950,12 @@ body {
     background-color: #0274b3;
     transition: .4s;
 }
+
+/*- Contact Section -*/
+
+.contact_header {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: -50px;
+    text-align: center;
+}
