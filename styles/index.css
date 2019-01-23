@@ -972,6 +972,7 @@ body {
 .contact .background_img .background_shadow {
     background-color: rgba(71, 118, 230, 0.88);
     height: 100%;
+    z-index: 2;
 }
 
 .contact_header {
@@ -984,3 +985,33 @@ body {
     font-size: 16px;    
 }
 
+.contact .contact_content {
+    z-index: 3;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact .contact_info {
+    display: flex;
+    flex-direction: row;    
+}
+
+.contact .contact_info .contact_details {
+    height: 500px; 
+    width: 300px;
+    background-color: #fff;
+}
+
+.contact .contact_info .contact_details__map {
+    height: 500px;
+    width: 300px;
+    background-color: #ddd;
+}
+
+.contact .contact_content .contact_form {
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+}
