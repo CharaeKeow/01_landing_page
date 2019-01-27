@@ -991,6 +991,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
 }
 
 .contact .contact_info {
@@ -1000,18 +1003,46 @@ body {
 
 .contact .contact_info .contact_details {
     height: 500px; 
-    width: 300px;
+    width: 350px;
     background-color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.contact .contact_info .contact_details .contact_details__header h4{
+    font-size: 20px;
+}
+
+.contact .contact_info .contact_details .contact_details__details h5{
+    color: #3c6cee;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.contact .contact_info .contact_details .contact_details__social {
+    margin-top: 50px;
+}
+
+.contact .contact_info .contact_details .contact_details__social ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+}
+
+.contact .contact_info .contact_details .contact_details__social ul li {
+    margin: 0 20px;
+    margin-left: 0;
+    font-size: 30px;    
 }
 
 .contact .contact_info .contact_details__map {
     height: 500px;
-    width: 300px;
+    width: 350px;
     background-color: #ddd;
 }
 
 .contact .contact_content .contact_form {
     height: 500px;
-    width: 300px;
+    width: 350px;
     background-color: #fff;
 }
