@@ -1040,7 +1040,8 @@ body {
     background-color: #ddd;
 }
 
-.contact .contact_content .contact_form {
+/*-- Form --*/
+.contact .contact_content .form-container {
     height: 500px;
     width: 350px;
     background-color: #fff;
