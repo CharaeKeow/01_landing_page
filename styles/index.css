@@ -1044,5 +1044,47 @@ body {
 .contact .contact_content .form-container {
     height: 500px;
     width: 350px;
-    background-color: #fff;
+    background-color: rgba(48, 89, 190, 1);
+    padding: 10px 30px;    
+}
+
+.contact .contact_content .form-container .form_header h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact .contact_content .form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact_content .form-container form input, 
+.contact .contact_content .form-container form textarea {
+    width: 100%;
+    padding: 7px 15px;
+    margin-bottom: 30px;
+    background-color: #4776e6;
+    color: #fff;
+    border: 1px solid #4776e6;
+    border-radius: 5px;
+}
+
+.contact .contact_content .form-container form input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+.contact .contact_content .form-container form input[type="submit"] {
+    display: block;
+    width: 50%;
+    padding: 10px;   
+    margin: auto;
+    background: #fff;
+    color: rgba(48, 89, 190, 1);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
