@@ -1088,3 +1088,30 @@ body {
     letter-spacing: 1px;
     cursor: pointer;
 }
+
+/*- Newsletter section -*/
+
+.newsletter .newsletter_header {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.newsletter .email {
+    margin-top: 70px;;
+    text-align: center;
+}
+
+.newsletter .email input {
+    width: 450px;
+    padding: 13px 17px;
+    background: #4776e6;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.newsletter .email input::placeholder  {
+    color: #fff;
+}
