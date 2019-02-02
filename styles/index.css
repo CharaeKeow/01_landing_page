@@ -1131,9 +1131,31 @@ body {
     font-weight: 1000;
     border: 0px;
     margin-left: -100px;
+    cursor: pointer;
 }
 
 .newsletter .email button .fa-paper-plane {
     margin-top: 0;
     color: #2a4ba5;
+}
+
+/*- Footer section -*/
+
+footer {
+    background-color: rgba(59, 101, 201, 1);
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;    
+    margin-top: -80px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;    
+    margin-left: 15px;
+}
+
+footer .fa-heart {
+    color: #fedc44; 
 }
