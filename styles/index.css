@@ -1091,6 +1091,11 @@ body {
 
 /*- Newsletter section -*/
 
+.newsletter {
+    background: rgba(59, 101, 201, 1);
+    color: #fff;
+}
+
 .newsletter .newsletter_header {
     width: 600px;
     margin: 0 auto;
@@ -1099,13 +1104,13 @@ body {
 }
 
 .newsletter .email {
-    margin-top: 70px;;
+    margin-top: 80px;;
     text-align: center;
 }
 
 .newsletter .email input {
     width: 450px;
-    padding: 13px 17px;
+    padding: 15px 20px;
     background: #4776e6;
     border: none;
     color: #fff;
@@ -1114,4 +1119,21 @@ body {
 
 .newsletter .email input::placeholder  {
     color: #fff;
+}
+
+.newsletter .email button {
+    width: 150px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #2a4ba5;
+    text-transform: uppercase;
+    font-weight: 1000;
+    border: 0px;
+    margin-left: -100px;
+}
+
+.newsletter .email button .fa-paper-plane {
+    margin-top: 0;
+    color: #2a4ba5;
 }
