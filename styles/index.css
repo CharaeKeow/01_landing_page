@@ -1156,6 +1156,10 @@ footer a {
     margin-left: 15px;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
 footer .fa-heart {
-    color: #fedc44; 
+    color: #f08a47   ; 
 }
